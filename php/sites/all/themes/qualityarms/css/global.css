@@ -1,0 +1,231 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+body{
+  background: url("/sites/all/themes/qualityarms/images/bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #000;
+}
+#page p, #page .content{
+ font-family: presicav;
+ color: #fff;
+}
+a:link, a:visited{
+  color: #fff;
+  font-family: presicav;
+}
+#uc-cart-checkout-form table a:link, #uc-cart-checkout-form table a:visited, #uc-cart-view-form table a:link, #uc-cart-view-form table a:visited, #uc-cart-checkout-form table a, #uc-cart-checkout-form table a{
+  color: #000;
+}
+#uc-cart-checkout-form table span, #uc-cart-view-form table span{
+  color: #000;
+}
+#uc-cart-checkout-form #uc-order-total-preview span{
+  color: #fff;
+}
+#uc-cart-checkout-form .fieldset-wrapper, #uc-cart-view-form .fieldset-wrapper{
+  color: #fff;
+}
+#uc-cart-checkout-form td.qty, #uc-cart-view-form td.qty{
+  color: #000;
+}
+#quote{
+  color: #fff;
+}
+#messages a:link, #messages a:visited, #messages a{
+  color: #000;
+}
+.pager{
+  border: none;
+}
+ul.nice-menu a {
+    padding: 3px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+ul.nice-menu li{
+  background-color: transparent;
+  border: none;
+  background: none;
+}
+ul.nice-menu{
+  border: none;
+  float: right;
+}
+h1, h2, h3, h4{
+  color: #fff;
+  letter-spacing: .5px;
+  font-variant: small-caps;
+  font-family: presicav;
+}
+label{
+  color: #fff;
+}
+span{
+  color: #fff;
+}
+dt, dd{
+  color: #fff;
+}
+#region-footer-second {
+  margin-top: 12px;
+}
+#region-footer-second ul li{
+  float: left;
+}
+#block-webform-client-block-6 h2{
+  float: left;
+  margin-right: 8px;
+  font-size: 16px;
+}
+#webform-client-form-6 .form-submit{
+  display: none;
+}
+#search-block-form{
+  float: right;
+}
+#section-content{
+  min-height: 500px;
+}
+ul.nice-menu-right, ul.nice-menu-left, ul.nice-menu-right li, ul.nice-menu-left li {
+  width: auto;
+}
+#block-menu-menu-products h2{
+  text-align: center;
+}
+#block-menu-menu-products li a{
+  font-size: 18px;
+  text-decoration: none;
+  font-variant: small-caps;
+  padding: 5px 10px;
+}
+#block-menu-menu-products li{
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+#block-menu-menu-products li a:active, #block-menu-menu-products li a:hover, #block-menu-menu-products li a.active{
+  background: #a1a1a1;
+  color: #fff;
+}
+#block-nice-menus-2 #nice-menu-2 {
+  float: right;
+}
+.front #page-title{
+  display: none;
+}
+#block-webform-client-block-6 #clientsidevalidation-webform-client-form-6-errors{
+  float:left;
+}
+#block-webform-client-block-6 #clientsidevalidation-webform-client-form-6-errors label{
+ font-size: 11px;
+}
+tr:hover td, tr.even:hover td.active, tr.odd:hover td.active{
+  background: none;
+}
+tr td:hover, tr.even:hover td.active, tr.odd:hover td.active{
+  background: none;
+}
+table{
+  border: none;
+}
+.field-name-uc-product-image{
+  float: left;
+  margin-right: 10px;
+}
+.display-price{
+  float: left;
+}
+.add-to-cart{
+  margin-top: 35px;
+}
+.field-name-body{
+  clear: both;
+  color: #fff;
+  padding-top: 10px;
+}
+td, th{
+  vertical-align: top;
+}
+.views-field-title{
+  font-size: 25px;
+  font-variant: small-caps;
+}
+.views-field-uc-product-image{
+  float: left;
+  margin-right: 10px;
+}
+.feed-icon{
+  display: none;
+}
+.views-field-body{
+  clear: both;
+}
+.views-field-body p{
+  margin: 0;
+}
+.views-field-view-node{
+  margin-right: 20px;
+}
+#nice-menu-1{
+  margin-top: 50px;
+  float: left;
+}
+#nice-menu-1 ul{
+  left: 151px;
+  border: none;
+}
+#nice-menu-1 li a{
+  font-size: 16px;
+}
+#nice-menu-1 li{
+  clear: both;
+  float: left;
+}
+#nice-menu-1 li a{
+  text-align: center;
+  width: 125px;
+}
+#nice-menu-1 li.menuparent a{
+    background: url("/sites/all/themes/qualityarms/images/arrow-right.png") no-repeat scroll right center transparent;
+    padding-right: 16px;
+}
+#nice-menu-1 li.menuparent li a{
+    background: url("/sites/all/themes/qualityarms/images/dropdown.png") repeat scroll 0 0 transparent;
+    padding-right: 16px;
+    font-size: 14px;
+}
+#nice-menu-1 li.menuparent, #nice-menu-1 li li.menuparent{
+    background: transparent;
+}
+#nice-menu-1 li a.active, #nice-menu-1 li a:hover{
+  background-color: #a1a1a1;
+  color: #fff;
+}
+#nice-menu-1 li.menuparent a.active, #nice-menu-1 li.menuparent a:hover {
+  background: url("/sites/all/themes/qualityarms/images/arrow-right.png") no-repeat scroll right center transparent;
+  padding-right: 16px;
+  background-color: #a1a1a1;
+}
+#nice-menu-1 li.menuparent li a.active, #nice-menu-1 li.menuparent li a:hover {
+  background: transparent;
+  padding-right: 16px;
+  background-color: #a1a1a1;
+}
+.galleria-thumbnails-container{
+  height: 100px;
+}
+.galleria-thumbnails-list{
+  height: 100px;
+}
+.galleria-thumbnails{
+  height: 100px !important;
+}
+.galleria-thumbnails .galleria-image{
+  height: 70px !important;
+}
+.breadcrumb{
+  color: #fff;
+}
