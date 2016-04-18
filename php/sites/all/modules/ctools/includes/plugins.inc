@@ -472,7 +472,7 @@ function ctools_plugin_load_includes($info, $filename = NULL) {
         if (isset($plugin_arrays[$file->uri])) {
           $identifier = $plugin_arrays[$file->uri];
         }
-        else {
+        //else {
 
           require_once DRUPAL_ROOT . '/' . $file->uri;
           // .inc files have a special format for the hook identifier.
