@@ -490,7 +490,7 @@ function ctools_plugin_load_includes($info, $filename = NULL) {
         // - else {
          //-   $identifier = $module . '_' . $file->name;
         // - }
-        }
+        //-}
 
         $result = ctools_plugin_process($info, $module, $identifier, dirname($file->uri), basename($file->uri), $file->name);
       }
