@@ -474,7 +474,7 @@ function ctools_plugin_load_includes($info, $filename = NULL) {
         }
         //-else {
 
-          require_once DRUPAL_ROOT . '/' . $file->uri;
+          //-require_once DRUPAL_ROOT . '/' . $file->uri;
           // .inc files have a special format for the hook identifier.
           // For example, 'foo.inc' in the module 'mogul' using the plugin
           // whose hook is named 'borg_type' should have a function named (deep breath)
@@ -483,12 +483,12 @@ function ctools_plugin_load_includes($info, $filename = NULL) {
           // If, however, the .inc file set the quasi-global $plugin array, we
           // can use that and not even call a function. Set the $identifier
           // appropriately and ctools_plugin_process() will handle it.
-          if (isset($plugin)) {
-            $plugin_arrays[$file->uri] = $plugin;
-            $identifier = $plugin;
+          //-if (isset($plugin)) {
+          //-  $plugin_arrays[$file->uri] = $plugin;
+          //-  $identifier = $plugin;
          //- }
         // - else {
-            $identifier = $module . '_' . $file->name;
+         //-   $identifier = $module . '_' . $file->name;
         // - }
         }
 
